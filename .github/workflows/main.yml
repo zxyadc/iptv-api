@@ -11,7 +11,7 @@ on:
       - gd
 jobs:
   push:
-    runs-on: ${{ matrix.operating-system }}
+    runs-on: self-hosted
     timeout-minutes: 120
     strategy:
       matrix:
